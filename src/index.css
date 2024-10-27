@@ -5,6 +5,18 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  /*
+* Created with https://www.css-gradient.com
+* Gradient link: https://www.css-gradient.com/?c1=77329e&c2=5a22a3&gt=l&gd=dtl
+*/
+/*
+* Created with https://www.css-gradient.com
+* Gradient link: https://www.css-gradient.com/?c1=2e0944&c2=06010e&gt=l&gd=dtl
+*/
+background: #2E0944;
+background: linear-gradient(135deg, #2E0944, #06010E);
+  color: white;
+  padding: 5px 2vw;
 }
 
 code {

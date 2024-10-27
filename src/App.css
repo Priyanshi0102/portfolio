@@ -36,3 +36,137 @@
     transform: rotate(360deg);
   }
 }
+
+.name-title {
+  margin: 0;
+  font-size: 22px;
+  text-align: left;
+}
+
+.box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  border-bottom: solid rgba(255, 255, 255, 0.3) 2px;
+  padding-bottom: 70px;
+  text-align: left;
+}
+
+.box img {
+  object-fit: cover;
+  width: 150px;
+  height: 150px;
+  border: solid black 1px;
+  border-radius: 50%;
+}
+
+.double-box {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  margin: 20px 0;
+  text-align: left;
+}
+
+.double-box > :last-child {
+  width: 100%;
+  max-width: 800px;
+}
+
+@media screen and (max-width: 600px) {
+  .double-box {
+    flex-direction: column;
+    gap: 5px;
+
+  }
+
+  .double-box > :first-child {
+    border-bottom: solid rgba(255, 255, 255, 0.5) 1px;
+    padding-bottom: 10px;
+    width: 100% !important;
+    text-align: center !important;
+    margin-bottom: 0;
+  }
+
+  .box img {
+    min-width: 100px;
+    height: 100px;
+  }
+
+  .box {
+    margin-bottom: -50px;
+    border: none;
+  }
+}
+
+
+.double-box > :first-child {
+  padding-right: 25px;
+  border-right: solid white 1px;
+  width: 110px;
+  text-align: right;
+}
+
+.skill-tag {
+  display: inline-block;
+  margin-right: 10px;
+  padding: 5px 10px;
+  border-radius: 25px;
+  border: solid rgba(255, 255, 255, 0.5) 1px;
+  margin-bottom: 10px;
+}
+
+.contact {
+  padding: 5px 10px;
+  border-radius: 25px;
+  font-size: 18px;
+  color: white;
+  text-decoration: none ;
+  border: solid white 1px;
+}
+
+.socials a{
+ padding-bottom: 10px;
+ line-height: 1.6;
+  color: white;
+  margin-bottom: 5px;
+  text-decoration: none;
+}
+
+.socials .bi{
+  margin-right: 5px;
+ }
+
+.header {
+  display: flex;
+  padding: 10px;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.card {
+  background-color: white;
+  text-align: left;
+  padding: 10px;
+  border: solid rgba(255, 255, 255, 0.5) 1px;
+  border-radius: 10px;
+  margin: 10px 0;
+  color: #222;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+}
+
+.card h3{
+  color: #561082;
+  margin: 0;
+  border-bottom: solid #ddd 1px;
+}
+
+.year {
+  color: #444;
+  font-size: 13px;
+}
